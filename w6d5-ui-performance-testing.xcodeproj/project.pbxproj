@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25E4693022AAB4C600112915 /* w6d5_ui_performance_testingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E4692F22AAB4C600112915 /* w6d5_ui_performance_testingUITests.swift */; };
+		25E4693E22AAE3BD00112915 /* w6d5_ui_performance_testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E4693D22AAE3BD00112915 /* w6d5_ui_performance_testingTests.swift */; };
+		25E4694622AAE79600112915 /* MealStorgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E4694522AAE79600112915 /* MealStorgeManager.swift */; };
 		2A35613C1FDCF496007EEEDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35613B1FDCF496007EEEDC /* AppDelegate.swift */; };
 		2A35613F1FDCF496007EEEDC /* w6d3_fetchedresultscontroller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A35613D1FDCF496007EEEDC /* w6d3_fetchedresultscontroller.xcdatamodeld */; };
 		2A3561411FDCF496007EEEDC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3561401FDCF496007EEEDC /* MasterViewController.swift */; };
@@ -17,7 +20,31 @@
 		2A3BA9C31FEB428200B29939 /* PerformanceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3BA9C21FEB428200B29939 /* PerformanceDataModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		25E4693222AAB4C600112915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3561301FDCF496007EEEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3561371FDCF496007EEEDC;
+			remoteInfo = "w6d5-ui-performance-testing";
+		};
+		25E4694022AAE3BD00112915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3561301FDCF496007EEEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3561371FDCF496007EEEDC;
+			remoteInfo = "w6d5-ui-performance-testing";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		25E4692D22AAB4C600112915 /* w6d5-ui-performance-testingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "w6d5-ui-performance-testingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E4692F22AAB4C600112915 /* w6d5_ui_performance_testingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = w6d5_ui_performance_testingUITests.swift; sourceTree = "<group>"; };
+		25E4693122AAB4C600112915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E4693B22AAE3BD00112915 /* w6d5-ui-performance-testingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "w6d5-ui-performance-testingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E4693D22AAE3BD00112915 /* w6d5_ui_performance_testingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = w6d5_ui_performance_testingTests.swift; sourceTree = "<group>"; };
+		25E4693F22AAE3BD00112915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E4694522AAE79600112915 /* MealStorgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealStorgeManager.swift; sourceTree = "<group>"; };
 		2A3561381FDCF496007EEEDC /* w6d5-ui-performance-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w6d5-ui-performance-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A35613B1FDCF496007EEEDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A35613E1FDCF496007EEEDC /* w6d3_fetchedresultscontroller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = w6d3_fetchedresultscontroller.xcdatamodel; sourceTree = "<group>"; };
@@ -31,6 +58,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		25E4692A22AAB4C600112915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E4693822AAE3BD00112915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A3561351FDCF496007EEEDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +82,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25E4692E22AAB4C600112915 /* w6d5-ui-performance-testingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25E4692F22AAB4C600112915 /* w6d5_ui_performance_testingUITests.swift */,
+				25E4693122AAB4C600112915 /* Info.plist */,
+			);
+			path = "w6d5-ui-performance-testingUITests";
+			sourceTree = "<group>";
+		};
+		25E4693C22AAE3BD00112915 /* w6d5-ui-performance-testingTests */ = {
+			isa = PBXGroup;
+			children = (
+				25E4693D22AAE3BD00112915 /* w6d5_ui_performance_testingTests.swift */,
+				25E4693F22AAE3BD00112915 /* Info.plist */,
+			);
+			path = "w6d5-ui-performance-testingTests";
+			sourceTree = "<group>";
+		};
 		2A35612F1FDCF496007EEEDC = {
 			isa = PBXGroup;
 			children = (
 				2A35613A1FDCF496007EEEDC /* w6d5-ui-performance-testing */,
+				25E4692E22AAB4C600112915 /* w6d5-ui-performance-testingUITests */,
+				25E4693C22AAE3BD00112915 /* w6d5-ui-performance-testingTests */,
 				2A3561391FDCF496007EEEDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				2A3561381FDCF496007EEEDC /* w6d5-ui-performance-testing.app */,
+				25E4692D22AAB4C600112915 /* w6d5-ui-performance-testingUITests.xctest */,
+				25E4693B22AAE3BD00112915 /* w6d5-ui-performance-testingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +127,7 @@
 				2A3561401FDCF496007EEEDC /* MasterViewController.swift */,
 				2A3561421FDCF496007EEEDC /* DetailViewController.swift */,
 				2A3BA9C21FEB428200B29939 /* PerformanceDataModel.swift */,
+				25E4694522AAE79600112915 /* MealStorgeManager.swift */,
 				2A3561441FDCF496007EEEDC /* Main.storyboard */,
 				2A3561471FDCF496007EEEDC /* Assets.xcassets */,
 				2A3561491FDCF496007EEEDC /* LaunchScreen.storyboard */,
@@ -76,6 +140,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		25E4692C22AAB4C600112915 /* w6d5-ui-performance-testingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E4693422AAB4C600112915 /* Build configuration list for PBXNativeTarget "w6d5-ui-performance-testingUITests" */;
+			buildPhases = (
+				25E4692922AAB4C600112915 /* Sources */,
+				25E4692A22AAB4C600112915 /* Frameworks */,
+				25E4692B22AAB4C600112915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E4693322AAB4C600112915 /* PBXTargetDependency */,
+			);
+			name = "w6d5-ui-performance-testingUITests";
+			productName = "w6d5-ui-performance-testingUITests";
+			productReference = 25E4692D22AAB4C600112915 /* w6d5-ui-performance-testingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		25E4693A22AAE3BD00112915 /* w6d5-ui-performance-testingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E4694222AAE3BD00112915 /* Build configuration list for PBXNativeTarget "w6d5-ui-performance-testingTests" */;
+			buildPhases = (
+				25E4693722AAE3BD00112915 /* Sources */,
+				25E4693822AAE3BD00112915 /* Frameworks */,
+				25E4693922AAE3BD00112915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E4694122AAE3BD00112915 /* PBXTargetDependency */,
+			);
+			name = "w6d5-ui-performance-testingTests";
+			productName = "w6d5-ui-performance-testingTests";
+			productReference = 25E4693B22AAE3BD00112915 /* w6d5-ui-performance-testingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2A3561371FDCF496007EEEDC /* w6d5-ui-performance-testing */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A35614F1FDCF496007EEEDC /* Build configuration list for PBXNativeTarget "w6d5-ui-performance-testing" */;
@@ -99,10 +199,20 @@
 		2A3561301FDCF496007EEEDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Roland;
 				TargetAttributes = {
+					25E4692C22AAB4C600112915 = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A3561371FDCF496007EEEDC;
+					};
+					25E4693A22AAE3BD00112915 = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A3561371FDCF496007EEEDC;
+					};
 					2A3561371FDCF496007EEEDC = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -123,11 +233,27 @@
 			projectRoot = "";
 			targets = (
 				2A3561371FDCF496007EEEDC /* w6d5-ui-performance-testing */,
+				25E4692C22AAB4C600112915 /* w6d5-ui-performance-testingUITests */,
+				25E4693A22AAE3BD00112915 /* w6d5-ui-performance-testingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		25E4692B22AAB4C600112915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E4693922AAE3BD00112915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A3561361FDCF496007EEEDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,10 +267,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		25E4692922AAB4C600112915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E4693022AAB4C600112915 /* w6d5_ui_performance_testingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25E4693722AAE3BD00112915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E4693E22AAE3BD00112915 /* w6d5_ui_performance_testingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A3561341FDCF496007EEEDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E4694622AAE79600112915 /* MealStorgeManager.swift in Sources */,
 				2A35613F1FDCF496007EEEDC /* w6d3_fetchedresultscontroller.xcdatamodeld in Sources */,
 				2A3BA9C31FEB428200B29939 /* PerformanceDataModel.swift in Sources */,
 				2A35613C1FDCF496007EEEDC /* AppDelegate.swift in Sources */,
@@ -154,6 +297,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25E4693322AAB4C600112915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3561371FDCF496007EEEDC /* w6d5-ui-performance-testing */;
+			targetProxy = 25E4693222AAB4C600112915 /* PBXContainerItemProxy */;
+		};
+		25E4694122AAE3BD00112915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3561371FDCF496007EEEDC /* w6d5-ui-performance-testing */;
+			targetProxy = 25E4694022AAE3BD00112915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2A3561441FDCF496007EEEDC /* Main.storyboard */ = {
@@ -175,6 +331,90 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		25E4693522AAB4C600112915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489ZVWUGPK;
+				INFOPLIST_FILE = "w6d5-ui-performance-testingUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.luizramos.w6d5-ui-performance-testingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "w6d5-ui-performance-testing";
+			};
+			name = Debug;
+		};
+		25E4693622AAB4C600112915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489ZVWUGPK;
+				INFOPLIST_FILE = "w6d5-ui-performance-testingUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.luizramos.w6d5-ui-performance-testingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "w6d5-ui-performance-testing";
+			};
+			name = Release;
+		};
+		25E4694322AAE3BD00112915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489ZVWUGPK;
+				INFOPLIST_FILE = "w6d5-ui-performance-testingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.luizramos.w6d5-ui-performance-testingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/w6d5-ui-performance-testing.app/w6d5-ui-performance-testing";
+			};
+			name = Debug;
+		};
+		25E4694422AAE3BD00112915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489ZVWUGPK;
+				INFOPLIST_FILE = "w6d5-ui-performance-testingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.luizramos.w6d5-ui-performance-testingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/w6d5-ui-performance-testing.app/w6d5-ui-performance-testing";
+			};
+			name = Release;
+		};
 		2A35614D1FDCF496007EEEDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -287,7 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q9N5PH89AB;
+				DEVELOPMENT_TEAM = 489ZVWUGPK;
 				INFOPLIST_FILE = "w6d5-ui-performance-testing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouselabs.w6d5-ui-performance-testing";
@@ -302,7 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q9N5PH89AB;
+				DEVELOPMENT_TEAM = 489ZVWUGPK;
 				INFOPLIST_FILE = "w6d5-ui-performance-testing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouselabs.w6d5-ui-performance-testing";
@@ -315,6 +555,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25E4693422AAB4C600112915 /* Build configuration list for PBXNativeTarget "w6d5-ui-performance-testingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E4693522AAB4C600112915 /* Debug */,
+				25E4693622AAB4C600112915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E4694222AAE3BD00112915 /* Build configuration list for PBXNativeTarget "w6d5-ui-performance-testingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E4694322AAE3BD00112915 /* Debug */,
+				25E4694422AAE3BD00112915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2A3561331FDCF496007EEEDC /* Build configuration list for PBXProject "w6d5-ui-performance-testing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
